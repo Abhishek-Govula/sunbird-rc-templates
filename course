@@ -23,6 +23,12 @@
         "name": "schema:Text"
       }
     },
+    "certificate": {
+      "@id": "https://github.com/sunbird-specs/vc-specs#trainedOn",
+      "@context": {
+        "name": "schema:Text"
+      }
+    },
     "completedOn": {
       "@id": "https://github.com/sunbird-specs/vc-specs#completedOn",
       "@context": {
@@ -31,6 +37,12 @@
     },
     "issuedTo": {
       "@id": "https://github.com/sunbird-specs/vc-specs#Person",
+      "@context": {
+        "name": "schema:Text"
+      }
+    },
+    "expiry": {
+      "@id": "https://github.com/sunbird-specs/vc-specs#expiry",
       "@context": {
         "name": "schema:Text"
       }
